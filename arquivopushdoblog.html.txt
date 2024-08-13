@@ -8,7 +8,7 @@
 <body>
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js')
+            navigator.serviceWorker.register('szsfinancas.blogspot.com/sw.js')
             .then(function(registration) {
                 console.log('Service Worker registrado com sucesso:', registration);
             })
